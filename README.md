@@ -44,7 +44,7 @@ The Dimensionality Paradox: Reducing the model from 29 features to just the Top 
       Maximum Possible Profit: ₹0.00
       Status: FINANCIAL LIABILITY
       
-## Conclusion: A Linear SVM cannot solve this problem profitably. The "Straight Line" boundary is too blunt to separate fraud from legitimate high-value commerce.
+### Conclusion: A Linear SVM cannot solve this problem profitably. The "Straight Line" boundary is too blunt to separate fraud from legitimate high-value commerce.
 
 # 🚀 Way Forward: Risk Engineering 2.0
 
@@ -60,7 +60,7 @@ II. Behavioral Feature Engineering
 
   Temporal Risk: High-value transactions during "Sleep Windows" (2 AM - 5 AM).
 
-#🧰 Tech Stack
+# 🧰 Tech Stack
   Language: Python
 
   Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib
