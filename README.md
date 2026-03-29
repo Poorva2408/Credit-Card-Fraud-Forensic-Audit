@@ -17,8 +17,8 @@ Standard models optimize for Recall (catching all fraud). However, in banking, e
 | **Thieves Caught (TP)** | 133 | 133 |
 | **Innocents Blocked (FP)** | 36,368 | 36,368 |
 
-Proof of Dimentionality
-The Dimensionality Paradox: > Reducing the model from 29 features to just the Top 6 high-impact vectors ($V_{17}, V_{14}, V_{12}, V_{10}, V_{16}, V_3$) resulted in zero loss in Recall. This proves that the "Signal" of fraud is highly concentrated. However, the identical count of Innocents Blocked (36,368) confirms that the operational noise is also embedded within these primary features, necessitating a shift toward Behavioral Feature Engineering or Threshold Optimization rather than simple feature selection.
+#### Proof of Dimentionality
+The Dimensionality Paradox: Reducing the model from 29 features to just the Top 6 high-impact vectors ($V_{17}, V_{14}, V_{12}, V_{10}, V_{16}, V_3$) resulted in zero loss in Recall. This proves that the "Signal" of fraud is highly concentrated. However, the identical count of Innocents Blocked (36,368) confirms that the operational noise is also embedded within these primary features, necessitating a shift toward Behavioral Feature Engineering or Threshold Optimization rather than simple feature selection.
 
 ### 2. The Financial Leak (Unscaled Audit)
    Using the original transaction amounts (unscaled), the audit revealed the "Hidden Truth":
